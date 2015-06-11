@@ -1,3 +1,4 @@
+######
 There isn't an assignment besides reading some material and an article.
 I think the best way to summarize the material would be to "get in the zone"
 when programming. That is: set aside uninterrupted time to program.

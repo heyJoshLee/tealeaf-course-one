@@ -1,26 +1,21 @@
-=begin
-Pass by reference vs value
+# Pass by reference vs value
 
-Create a method that takes an array as a parameter. 
-Within that method, try calling methods that do not mutate 
-the caller. How does that affect the array outside of the method? 
-What about when you call a method that mutates the caller within 
-the method?
+# Create a method that takes an array as a parameter. 
+#   Within that method, try calling methods that do not mutate 
+#   the caller. How does that affect the array outside of the method? 
+#   What about when you call a method that mutates the caller within 
+#   the method?
 
-Example:
+# Example:
+# def my_method(arr)
+#  arr.uniq
+# end
 
-def my_method(arr)
-  arr.uniq
-end
+# my_arr = [1, 2, 2, 3]
+# my_method(my_arr)
+# puts my_arr # => was the outer scope array affected by the 
+# method invocation?
 
-my_arr = [1, 2, 2, 3]
-my_method(my_arr)
-puts my_arr # => was the outer scope array affected by the 
-method invocation?
-
-
-
-=end
 
 my_array = ["a", "b", "b", "d", "c"]
 def mod_array(arr)
